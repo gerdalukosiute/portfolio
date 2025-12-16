@@ -55,7 +55,7 @@ export function ProjectsSection() {
         "Language Detection",
         "Streamlit",
       ],
-      githubUrl: "TBA",
+      githubUrl: "https://github.com/gerdalukosiute/chatbot",
       category: "nlp",
     },
 
