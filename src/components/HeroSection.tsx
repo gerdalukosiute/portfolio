@@ -181,7 +181,7 @@ export function HeroSection() {
               {/* Main Profile Image */}
               <div className="w-80 h-80 md:w-96 md:h-96 lg:w-[420px] lg:h-[420px] rounded-3xl overflow-hidden border-4 border-background shadow-2xl relative">
                 <img
-                  src="/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`} 
                   alt="Gerda Lukosiute - AI & ML Engineer"
                   className="w-full h-full object-cover"
                 />

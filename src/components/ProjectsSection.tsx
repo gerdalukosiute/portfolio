@@ -30,7 +30,7 @@ export function ProjectsSection() {
       description:
         'Fine tuned & trained ResNet based CNNs across 4 magnfication levels and improved reported benchmarks for Kaggle "BreakHis" dataset',
       image:
-        "https://images.unsplash.com/photo-1684610529682-553625a1ffed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwxfHx8fDE3NTYyODk0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        `${import.meta.env.BASE_URL}histo_slide.jpg`,
       technologies: [
         "Python",
         "Scikit-learn",
@@ -48,8 +48,7 @@ export function ProjectsSection() {
       title: "Eur-Lex directive chatbot",
       description:
         "Built a chatbot that answers questions (and includes citations) about a specific EU directive.",
-      image:
-        "https://images.unsplash.com/photo-1700038778311-0e132fc2e205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuYXR1cmFsJTIwbGFuZ3VhZ2UlMjBwcm9jZXNzaW5nJTIwdGV4dHxlbnwxfHx8fDE3NTYyOTQ3MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: `${import.meta.env.BASE_URL}chatbot_icon.jpg`,
       technologies: [
         "NLP",
         "LangChain",
@@ -67,7 +66,7 @@ export function ProjectsSection() {
       description:
         "Whatsapp-like chat web application that allows users to engage in 1-on-1 or group conversations with reactions, images and replies.",
       image:
-        "https://images.unsplash.com/photo-1700038778311-0e132fc2e205?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuYXR1cmFsJTIwbGFuZ3VhZ2UlMjBwcm9jZXNzaW5nJTIwdGV4dHxlbnwxfHx8fDE3NTYyOTQ3MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        `${import.meta.env.BASE_URL}web_app_icon.jpg`,
       technologies: [
         "Go",
         "REST",
@@ -87,7 +86,7 @@ export function ProjectsSection() {
         "Phenotypic Evaluation of Tumor-infiltrating ILC1/NK cells in Murine Models of CRC",
       description:
         "Identified target cell subsets from scRNAseq data. Investigated the phenotypic/functional distinction between ILC1 and NK immune cells. Discovered quantitative fluctuation of ILC1 in CRC stage progression.",
-      image: "https://www.istockphoto.com/photos/dna",
+      image: `${import.meta.env.BASE_URL}ILC1_NK_umap.jpg`,
       technologies: [
         "ML",
         "Seurat",
